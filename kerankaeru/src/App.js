@@ -3,6 +3,7 @@ import Home from "./components/pages/Home";
 import Navbar from './components/navbar/Navbar';
 import About from './components/pages/About';
 import Upcoming from './components/pages/Upcoming';
+import Contact from './components/pages/Contact';
 
 function App() {
 
@@ -19,6 +20,9 @@ function App() {
     case "/Upcoming":
       Component = Upcoming;
       break;
+      case "/Contact":
+        Component = Contact;
+        break;
 		default:
 			Component = Home;
 			break;
