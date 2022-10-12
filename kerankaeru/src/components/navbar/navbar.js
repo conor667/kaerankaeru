@@ -16,7 +16,7 @@ class Navbar extends Component {
 				<h1 className="navbar-logo">
 					{" "}
                     <img className="bandlogo" src={require("./logo.jpg")}></img>
-					Kaerankaeru <i class="fa-solid fa-film"></i>
+					<a> Kaerankaeru</a> <i class="fa-solid fa-film"></i>
 				</h1>
 				<div className="menu-icon" onClick={this.handleClick}>
 					<i className={this.state.clicked ? "fas fa-times" : "fas fa-bars"}></i>

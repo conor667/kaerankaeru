@@ -13,7 +13,11 @@
     justify-self: start;
     margin-left: 20px;
     cursor: pointer;
-    color: rgb(32, 229, 243);
+    color: rgba(51, 233, 233, 0.822);
+}
+.navbar-logo:hover{
+    color:#fd0404;
+    transition: 1s ease-in;
 }
 .fa-react{
     margin-left: 0.5rem;
