@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { MenuItems } from "./MenuItems";
 import "./Navbar.css";
-
+import "./logo.jpg";
 
 class Navbar extends Component {
 	state = { clicked: false };
@@ -15,6 +15,7 @@ class Navbar extends Component {
 			<nav className="NavbarItems">
 				<h1 className="navbar-logo">
 					{" "}
+                    <img className="bandlogo" src={require("./logo.jpg")}></img>
 					Kaerankaeru <i class="fa-solid fa-film"></i>
 				</h1>
 				<div className="menu-icon" onClick={this.handleClick}>
