@@ -3,7 +3,7 @@ import React from "react";
 function Upcoming(){
     return(
         <div>
-            <h1 className="Bandtitle">Upcoming</h1>
+            <h1 className="title">Upcoming</h1>
             <p>We'll be performing at @firecafeosaka on the 15th of October alongside OS Vagalumes!
                 Come and check it out, @kaerankaeru will play from 9 PM!
 
